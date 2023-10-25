@@ -7,9 +7,12 @@ h1{
     display: flex;
     flex-wrap:wrap;
     margin-top: 80px;
+    margin-left:30px;
 } 
 .dt div{
-    box-shadow: 5px 5px 10px #767070;
+    box-shadow: 5px 5px 10px #e1dfdf;
+    height: 350px;
+    width:330px;
 }
 .dt img{
     display: flex;
@@ -25,36 +28,42 @@ h1{
     color: antiquewhite;
 }
 .gh img{
-    width: 35;
-    height: 35;
+    width:60;
+    height: 60;
     float:right;
-   margin-right: 430;
-   margin-top: -30;
+   margin-right: 350;
+   margin-top: -40;
 }
 
-.dnhap{
+.dnhap{     
     float:right;
-    margin-top: 30;
+    margin-top:-15;
+    margin-right: 30;
 }
-li {
+.dnhap a{
+    text-decoration: none;
+}
+ul {
     float: left;
   }
   
-li a {
-    display: block;
+.trch a {
     padding: 45px;
     margin-top:-45;
     margin-bottom: 30;
     height:8;
+    text-decoration: none;
 }
-ul{
+.trch{
+    display:flex;
     margin-top: -50;
 }
 .tk{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -80;
+    margin-top: -90;
+    margin-right: 10;
 }
 .sb_btn{
     position: absolute;
@@ -69,19 +78,14 @@ ul{
 .sp{
     border:1px solid #ccc ;
     padding: 10px; 
-    display:grid;
-    margin-left:30px;
-    margin-top:15px;
-    border-top-right-radius:10%;
-    border-top-left-radius:10%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius:10%;
+    margin-left:0px;
+    margin-top:0px;
 }
 .sp p{
     text-align:center;
 }
 .sp img{
-     margin-left: 100;
+     margin-left: 100px;
      transform:opacity 0.2s;
 }
 .sp:hover{
