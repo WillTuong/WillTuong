@@ -10,12 +10,18 @@
 </head>
 <body>
     <div class="p">
-    <p>ĐĂNG NHẬP</p>
+  <p><b>Sign in</b></p>
     <p>Tài khoản</p>
-    <input> 
-    <p>Mật khẩu</p>
-    <input><br><br>
-    <button>Login</button><br><br>
-    <a href=“http://127.0.0.1:5500/HTML/forgotpass.html”>Quên mật khẩu</a>
+    <input type = "tk" id="tk" name="tk"> 
+    <p>Password</p>
+    <input type ="password" id="password" name="password"><br><br>
+    <div id="eye"></div>
+    <i class="far fa-eye slash"></i>
+    <button type="button" onClick ="checkAndSubmit()">Login</button><br><br>
+    <div class="create">
+   <div> <a href=“http://127.0.0.1:5500/HTML/forgotpass.html”>Forgot password</a></div>
+  <div><a href="/HTML/signup.html">Sign up</a> </div>
     </div>
+    </div>
+    <script type="text/javascript" src="/JS/login.js"></script>
 </body>
