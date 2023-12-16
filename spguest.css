@@ -1,0 +1,282 @@
+h1{
+    text-align:center;
+    height:150px;
+    margin-left: -20px;
+    background-color: antiquewhite;
+}
+.dt{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.dt{
+    box-shadow: 2px 2px 5px #2c2b2b;
+    margin-right: 130px;
+    border-radius: 10px;
+}   
+body{
+    background-color:rgb(255, 253, 253);
+}
+.dt img{
+    display: flex;
+    margin-right: 100px;
+    width: 150px;
+    height: 150px;
+    transition:opacity 0.20s;
+}
+.logo img{
+    width: 130px;
+    height:60px;
+    margin-top: -140px;
+    margin-left:15px;
+    transition:opacity 0.20s;
+    cursor:pointer;
+    color: antiquewhite;
+}
+.logo img:hover
+{
+    opacity:0.5;
+}
+.logo img:active
+{
+    opacity: 0.2;
+}
+.gh img{
+    width: 35px;
+    height: 35px;
+    float:right;
+    transition:tranform 0.3s;
+    cursor:pointer;
+    margin-right: 200px;
+    margin-top: -30px;
+}
+.gh img:hover
+{
+    opacity:0.5;
+}
+.gh img:active
+{
+    opacity: 0.2;
+}
+
+.dnhap{
+    float:right;
+    margin-top: -30px;
+    margin-right: 20px;
+    
+}
+.dnhap img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.dnhap a{
+    text-decoration: none;
+}
+.trch{
+    display: flex;
+    padding: 45px;
+    margin-top:-95px;
+    margin-bottom: 30px;
+    margin-left: -60px;
+    height:8px;
+}
+.trch a{
+    display:flex;
+    margin-left:50px;
+    text-decoration: none;
+}
+.tk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -85px;
+    margin-right: 100px;
+}
+.sb_btn{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    background-color: gray;
+}
+.sb_btn img{
+    margin-top: -1px;
+    margin-left: -5px;
+}
+.sp{
+    border: 2px solid rgb(124, 117, 117);
+    margin: 10px;
+    height: 600px;
+    width: 500px;
+    padding: 10px;
+    background-color:white;
+}
+.tt{
+    border: 2px solid rgb(123, 123, 123);
+    margin: 10px;
+    height: 280px;
+    width: 530px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color:white;
+}
+.tt p{
+    text-align: left;
+    margin-left: 20px;
+}
+.sp p{
+    margin-left: 8px;
+}
+.sp img{
+    margin-top: 40px;
+    margin-left: 10px;
+    height: 500px;
+    width: 500px;
+
+}
+.mh{
+    display: flex;
+}
+.mh{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 137px;
+    background-color: rgb(246, 54, 54);
+    transition:opacity 0.20s;
+    cursor:pointer;
+}
+.mh:hover
+{
+    opacity:0.5;
+}
+.mh:active
+{
+    opacity: 0.2;
+}
+.mn{
+    display: flex;
+}
+.mn{
+    height: 50px;
+    width: 125px;
+    margin: 10px;
+    margin-top:-60px;
+    background-color: rgb(246, 54, 54);
+    transition:opacity 0.20s;
+    cursor:pointer;
+}
+.mn:hover
+{
+    opacity:0.5;
+}
+.mn:active
+{
+    opacity: 0.2;
+}
+.ch{
+    border:2px solid  rgb(123, 123, 123);
+    margin: 10px;;
+    margin-top: 330px;
+    margin-left: -563px;
+    height: 300px;
+    width: 550px;
+    overflow: scroll;
+}
+.td{
+    margin-left: 20px;
+    font-weight: bolder;
+}
+#baond{
+    border: 2px solid gray;
+    margin-left: 20px;
+}
+.nd{
+
+    border-bottom:2px solid gray;
+    width:98%;
+    margin-left: 10px;
+
+}
+.nd p{
+    margin: 10px;
+}
+.csbh{
+    display: flex;
+    width:1450px;
+    margin-right:500px;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+.bh{
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    margin-left: 80px;
+    background-color:aliceblue;
+}
+.bh1{
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    margin-left: 80px;
+    background-color:aliceblue;
+}
+.ttlh{
+    margin-left: 80px;
+}
+.lhe{
+    margin-left: 100px;
+}
+.thtoan{
+    margin-top: 150px;
+    margin-left: -490px;
+}
+.cnh{
+    margin-top: 300px;
+    margin-left: -300px;
+}
+.cnh img{
+    height: 30%;
+}
+.b{
+    margin-top: 80px;
+}
+.them{
+    margin-left: 50px;
+    margin-bottom: -60px;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    border-top: 3px solid #c9c1c1;
+    margin-top: 80px;
+    border-bottom: 3px solid #c9c1c1;
+    height: 450px;
+    overflow: scroll;
+}
+.gy{
+    box-shadow: 2px 2px 5px;
+    border: 1px solid rgb(120, 115, 115);
+    height: 350px;
+    width: 230;
+    margin: 10px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    border-top-right-radius:3%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    cursor:pointer;
+}
+.gy img{
+    display: flex;
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 35px;
+    transition:opacity 0.20s;
+    cursor:pointer;
+}

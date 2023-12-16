@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DI ĐỘNG VNT</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <div class="td">
+            <h1>DI ĐỘNG VNT</h1>
+        </div>
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/index.html/web.html">
+            <img src="../web/Ảnh chụp màn hình 2023-10-13 202202.png" alt="logo">
+            </a>
+         </div>
+        <link rel="stylesheet" type="text/css" href="../css/ghang.css">
+    </head>
+<body>
+    <div class="trch">
+        <a href="http://127.0.0.1:5500/index.html/web.html">Trang chủ</a></li>
+      </div>
+      <div class="tk">
+        <div class="seach_box">
+            <input class="sb_input" type="text">
+            <button class="sb_btn">
+                <i class="far fa-search fa-xs">
+                    <img src="../web/istockphoto-1171564262-612x612.jpg" width="20" height="17">
+                </i>    
+            </button>
+          </div>
+      </div>
+      </div>
+      <div class="dnhap">
+        <a href="http://127.0.0.1:5500/index.html/dnhap.html">sign</a></li>
+      </div>
+      <div class="gh">
+        <a href="http://127.0.0.1:5500/index.html/ghang.html">
+            <img src="../web/shopping_cart_PNG39.png">
+        </a>
+      </div>
+    <div class="ghang">
+        <p>GIỎ HÀNG</p>
+    </div>
+    <ul id="cart-items"></ul>
+    <p id="tongTien"></p>
+    <button id="btnMuaHang" onclick="muaHang()">Mua hàng</button>
+
+    <script>
+        // Hiển thị các sản phẩm trong giỏ hàng
+        var cart = JSON.parse(localStorage.getItem("cart")) || [];
+        var giaSanPham = {1: 11290000, 4: 12390000}; // Giả sử giá của sản phẩm 1 là 10000 và sản phẩm 2 là 20000
+        var tongTien = 0;
+        for (var i = 0; i < cart.length; i++) {
+            var productId = cart[i];
+            $("#cart-items").append("<li id='product-" + productId+ "'><img src='/images/product" + productId + ".jpg' alt='Sản phẩm " + productId + "' />Sản phẩm " +productId + " <button onclick='removeFromCart(" + productId + ")'>Xóa</button></li>");
+            tongTien += giaSanPham[productId];
+        }
+        $("#tongTien").text("Tổng tiền: " + tongTien);
+
+        // Hàm xóa sản phẩm khỏi giỏ hàng
+        function removeFromCart(productId) {
+            var cart = JSON.parse(localStorage.getItem("cart")) || [];
+            var index = cart.indexOf(productId);
+            if (index > -1) {
+                cart.splice(index, 1);
+            }
+            localStorage.setItem("cart", JSON.stringify(cart));
+            $("#product-" + productId).remove();
+            tongTien -= giaSanPham[productId];
+            $("#tongTien").text("Tổng tiền: " + tongTien);
+        }
+
+        // Hàm mua hàng
+        function muaHang() {
+            // Xử lý thanh toán ở đây
+            thanhToan(tongTien);
+
+            // Xóa giỏ hàng sau khi thanh toán
+            cart = [];
+            localStorage.setItem("cart", JSON.stringify(cart));
+            $("#cart-items").empty();
+            tongTien = 0;
+            $("#tongTien").text("Tổng tiền: " + tongTien);
+        }
+    </script>
+</body>
+</html>

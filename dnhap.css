@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+}
+.dn{
+    text-align:center;
+    border:1px solid #ccc ;
+    padding: 10px; 
+    width:20%;
+    margin-top: 100px;
+    margin-left:39.5%;
+    box-shadow: 5px 5px 10px rgb(81, 79, 79);
+    border-top-right-radius:10%;
+    border-top-left-radius:10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius:10%;
+}
+html{
+    background-color:rgb(250,235,215) ;
+}
+.logo{
+    text-align: center;
+}

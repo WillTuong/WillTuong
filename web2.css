@@ -1,0 +1,99 @@
+h1{
+    text-align:center;
+    height:150px;
+    background-color: antiquewhite;
+}
+.dt{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.dt img{
+    display: flex;
+    margin-right: 100px;
+    width: 150px;
+    height: 150px;
+    transition:opacity 0.20s;
+    cursor:pointer;
+}
+.dt img:hover
+{
+   opacity:0.5;
+}
+.dt img :active
+{
+    opacity:0.2;
+}
+.logo img{
+    width: 140px;
+    height:100px;
+    margin-top: -150px;
+    transition:opacity 0.20s;
+    cursor:pointer;
+    color: antiquewhite;
+}
+.logo img:hover
+{
+    opacity:0.5;
+}
+.logo img:active
+{
+    opacity: 0.2;
+}
+.gh img{
+    width: 35px;
+    height: 35px;
+    float:right;
+    transition:opacity 0.20s;
+    cursor:pointer;
+   margin-right: 430px;
+   margin-top: -30px;
+}
+.gh img:hover
+{
+    opacity:0.5;
+}
+.gh img:active
+{
+    opacity: 0.2;
+}
+.dt p{
+    text-align: center;
+    font-size: 13px;
+    margin-left: -80px;
+}
+.dnhap{
+    float:right;
+    margin-top: 30px;
+}
+li {
+    float: left;
+  } 
+  
+.trch li {
+    display: block;
+    padding: 45px;
+    margin-top:-45px;
+    margin-bottom: 30px;
+    height:8px;
+    text-decoration: null;
+}
+ul{
+    margin-top:-50;
+}
+.tk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+.sb_btn{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    background-color: gray;
+}
+.sb_btn img{
+    margin-top: -1px;
+    margin-left: -5px;
+}

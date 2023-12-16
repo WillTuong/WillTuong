@@ -1,0 +1,127 @@
+h1{
+    text-align:center;
+    height:150px;
+    background-color: antiquewhite;
+}   
+.logo img{
+    width: 130px;
+    height:60px;
+    margin-top: -140px;
+    margin-left:15px;
+    transition:opacity 0.20s;
+    cursor:pointer;
+    color: antiquewhite;
+}
+.logo img:hover
+{
+    opacity:0.5;
+}
+.logo img:active
+{
+    opacity: 0.2;
+}
+.qlidonhang{
+    float:right;
+    transition:tranform 0.3s;
+    cursor:pointer;
+    margin-right: 400px;
+    margin-top: -20px;
+}
+.qlidonhang a
+{
+    text-decoration: none;
+}
+.admin{
+    float:right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.admin a{
+    text-decoration: none;
+}
+.trch{
+    display: flex;
+    padding: 45px;
+    margin-top:-95px;
+    margin-bottom: 30px;
+    margin-left: -60px;
+    height:8px;
+}
+.trch a{
+    display:flex;
+    margin-left:50px;
+    text-decoration: none;
+}
+.tk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -85px;
+    margin-right: 100px;
+}
+.sb_btn{
+    position: absolute;
+    width: 24px;
+    height: 21px;
+    background-color: gray;
+}
+.sb_btn img{
+    margin-top: -1px;
+    margin-left: -5px;
+}
+
+.csbh{
+    display: flex;
+    width:1450px;
+    margin-right:500px;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+.bh{
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    margin-left: 80px;
+    background-color:aliceblue;
+}
+.bh1{
+    height: 400px;
+    width: 270px;
+    padding: 10px;
+    margin-left: 80px;
+    background-color:aliceblue;
+}
+.ttlh{
+    margin-left: 80px;
+}
+.lhe{
+    margin-left: 100px;
+}
+.thtoan{
+    margin-top: 150px;
+    margin-left: -490px;
+}
+.cnh{
+    margin-top: 300px;
+    margin-left: -300px;
+}
+.cnh img{
+    height: 80px;
+}
+.dsdonhang{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+.qlinguoidung{
+    float:right;
+    transition:tranform 0.3s;
+    cursor:pointer;
+    margin-right: 200px;
+    margin-top: -20px;
+}
+.qlidnguoidung a
+{
+    text-decoration: none;
+}
